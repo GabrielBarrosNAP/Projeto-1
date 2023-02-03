@@ -11,6 +11,3 @@ class Agenda(Base, SQLiteController, PandasController):
 
     def rent(self):
         print('ALUGOU PATRÃO')
-
-        
-client = Agenda()
