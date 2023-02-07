@@ -1,0 +1,2 @@
+class InvalidHour(Exception):
+    pass

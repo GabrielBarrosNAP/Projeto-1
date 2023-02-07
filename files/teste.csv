@@ -1,14 +1,14 @@
 Horarios;Terça;Quarta;Quinta;Sexta;Sábado;Domingo
-9;a;REBECA|HELEN|LETICIA GRAZIELE|CARINA;aaa;aaa;aaaa;aaaaa
-10;b;bb;bbb;bbbb;bbbb;bbbbb
-11;c;cc;ccc;cccc;ccccc;awdawda
-12;d;dd;ddd;dddd;ddddd;awdawd
-13;e;ee;eee;eeee;eeeee;dawdawd
-14;f;ff;fff;ffff;fffff;dwadawdaw
-15;g;gg;ggg;gggg;ggggg;dawdawdaw
-16;h;hh;hhh;hhhh;hhhhh;wadawdawdaw
-17;aaaaa;ccc;wwdw;212;vvvv;wdadawdwa
-18;dwad;cccc;xxxx;1123;854141;awdawdaw
-19;xxx;ddd;eeeeee;2222;ewdawd;dwadawdwa
-20;ddddd;cacsa;21321;adwd;fffff;wdawdwa
-21;dawdaw;awdaw;dwadwa;dawd;daw;dwadaw
+9;|||;|||;|||;|||;|||;a|b|c|d
+10;|||;a|b|c|d;|||;|||;|||;|||
+11;|||;|||;a|b|c|d;|||;|||;|||
+12;a|b|c|d;|||;|||;|||;|||;a|b|c|d
+13;|||;|||;|||;|||;|||;|||
+14;|||;|||;|||;a|b|c|d;|||;|||
+15;|||;|||;|||;|||;|||;|||
+16;|||;a|b|c|d;|||;|||;|||;|||
+17;|||;|||;|||;|||;a|b|c|d;|||
+18;|||;|||;|||;|||;|||;|||
+19;|||;a|b|c|d;|||;|||;|||;|||
+20;|||;|||;a|b|c|d;|||;|||;|||
+21;|||;|||;|||;|||;|||;a|b|c|d

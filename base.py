@@ -1,3 +1,4 @@
+import sqlite3
 import pandas as pd
 
 from os.path import exists
@@ -8,6 +9,16 @@ class Base:
         self.validate_files()
     
     def validate_files(self):
+        def verify_registers_database():
+            conn = sqlite3.connect('registers.db')
+            c = conn.cursor()
+            c.execute("CREATE TABLE IF NOT EXISTS REGISTERS (NAME TEXT NOT NULL, PHONE INTEGER NOT NULL)")
+        
+        # def verify_calendar_database():
+        #     conn = sqlite3.connect('calendar.db')
+        #     c = conn.cursor()
+        #     c.execute("CREATE TABLE IF NOT EXISTS CALENDAR ()")
+        
         def verify_dataframe_exists():
             if not exists('files/teste.csv'):
                 makedirs('files', exist_ok=True)
@@ -19,5 +30,9 @@ class Base:
                 )
                 
                 df.to_csv('files/teste.csv', sep=';')
+                
         verify_dataframe_exists()
+        verify_registers_database()
+        # verify_calendar_database()
+        
         self.df = pd.read_csv('files/teste.csv', delimiter=';')
